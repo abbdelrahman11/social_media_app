@@ -154,3 +154,89 @@ body {
   color: #ddd;
   border: 2px solid;
 }
+
+.main-container {
+  padding: 40px;
+  background-color: #1a4669;
+  border-radius: 10px;
+  margin: 50px 0px;
+  /* #0D426E */
+}
+.main-container h1 {
+  text-align: center;
+  color: #fff;
+}
+.container {
+  border-radius: 10px;
+  background-color: #fff;
+  margin: 40px;
+}
+.header {
+  width: 400px;
+}
+.header h2 {
+  text-align: center;
+  background-color: #457599;
+  color: #fff;
+  padding-top: 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 15px;
+}
+.form {
+  padding: 30px 40px;
+}
+.form .form-details {
+  padding: 10px 0 20px;
+  margin: 10px;
+  position: relative;
+}
+.form .form-details.success input {
+  border-color: #2ecc71;
+}
+.form .form-details.error input {
+  border-color: #e74c3c;
+}
+.form .form-details.success i.fa-check-circle {
+  visibility: visible;
+  color: #2ecc71;
+}
+
+.form .form-details.error i.fa-exclamation-circle {
+  visibility: visible;
+  color: #e74c3c;
+}
+
+.form .form-details span {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.form .form-details input {
+  display: block;
+  border: 2px solid #000;
+  border-radius: 5px;
+  font-size: 14px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.form .form-details i {
+  position: absolute;
+  top: 49px;
+  right: 10px;
+  visibility: hidden;
+}
+.form .form-details small {
+  visibility: hidden;
+}
+.form-details.error small {
+  visibility: visible;
+}
+.form button {
+  width: 100%;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #1a4669;
+}
